@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Gamepedia - Home</title>
+
+		<link rel="shortcut icon" href="img/favicon.ico" />
+
+		<link href="css/estilo.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script>
+				$(document).ready(function(){
+				  // Add smooth scrolling to all links
+				  $("a").on('click', function(event) {
+
+				    if (this.hash !== "") {
+				      event.preventDefault();
+
+				      // Store hash
+				      var hash = this.hash;
+
+				      // Using jQuery's animate() method to add smooth page scroll
+				      $('html, body').animate({
+				        scrollTop: $(hash).offset().top
+				      }, 800, function(){
+
+				        window.location.hash = hash;
+				      });
+				    } // End if
+				  });
+				});
+			</script>
+	</head>
+<body>
+
+
+	<div class="navbar">
+	  <a href="#topo" style="background-color: white;color: black;">Inicio</a>
+	  <a href="playstation.html">Playstation</a>
+	  <a href="xbox.html">Xbox</a>
+	  <a href="nintendo.html">Nintendo</a>
+	  <div class="dropdown" style="display: inline-block;height: 1vw;background: black;color: white;">
+  			<a href="#" class="dropbtn" style="size: 1vw;font-size: 1vw;">Minigames</a>
+	  		<div class="dropdown-content" style="z-index: 6;position: fixed;margin-top: 3.1vw;width: 2vw;">
+		    	<a href="trivia.html">Trivia</a>
+		    	<a href="quiz.php">Quiz</a>
+  			</div>
+	  </div>
+
+	</div>
+		
+		
+
+	<div>
+		<img class="banner" id="topo" src="img/fundo.jpg">
+			<div class="conteudo_banner" style="margin-top:-42vw;margin-left: 3vw;">
+				<h1>GAMEPEDIA</h1>
+			</div>
+			<div class="botao">
+				<a href="#destino"><img class="seta" src="img/arrow2.gif"></a>
+			</div>
+	</div>
+	
+	<div class="texto">
+		<br><br><br id="destino"><br><br><br>
+		<h2>
+			<strong>
+				<em>O site feito por fãs de consoles, para fãs de consoles.</em>
+			</strong>
+		</h2>
+
+		<p>
+		Aprenda sobre os 3 maiores consoles do mercado, e jogue os minigames para descobrir mais sobre você e os consoles!
+		</p>
+		<p>
+		Nesse site, você aprenderá sobre os consoles, e poderá jogar um quiz para saber com qual console você mais se identifica, e quantos anos tinha quando saiu a primeira versão de cada um dos videogames.
+		</p>
+		<h4>
+		<em>Divirta-se!</em>
+		</h4>
+		<br><br><br><br><br><br><br id="destino">
+	</div>
+
+	<div class="footer">
+		<p id="txtfooter" style="margin-top: 1vw;"> Desenvolvido por - 
+			<a href="https://br.linkedin.com/in/iuripaiva" style="color: white;" target="_blank">Iuri Paiva - BSI 3º Período</a>
+		</p>
+	</div>
+	
+</body>
+</html>

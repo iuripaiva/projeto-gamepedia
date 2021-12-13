@@ -1,0 +1,191 @@
+/* Formatação do body e links*/
+
+body{
+	overflow-x: hidden;
+	background-color: #292929;
+	scroll-behavior: smooth;
+	font-family: 'Open Sans',sans-serif,tahoma;
+}
+
+a{
+  text-decoration:none;
+}
+
+a:hover{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+/* Barra de menu */
+.navbar {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 101.5%;
+  z-index: 2;
+  font-size: 1.07vw;
+  margin-left: -1vw;
+  background: black;
+}
+
+/* Links dentro do menu */
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1.05vw 1.2vw;
+  text-decoration: none;
+}
+
+/* Mudar a cor com o mouse-over (navbar) */
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.banner {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  width: 98.95vw;
+  height: 48vw;
+  margin: -9px;
+  filter: brightness(50%);
+
+}
+.conteudo_banner {
+  z-index: 1;
+  position: absolute;
+  color: white;
+  text-align: center;
+  margin-top: -45vw;
+  margin-left: 4.5vw;
+  font-size: 7.5vw;
+
+}
+
+.conteudo_banner_ps {
+  z-index: 1;
+  position: absolute;
+  color: white;
+  text-align: center;
+  margin-top: -44vw;
+  margin-left: 3.3vw;
+  font-size: 6.5vw;
+
+}
+
+/* Formatação da seta do banner */
+
+.seta {
+  z-index: 2;
+  position: absolute;
+  overflow: hidden;
+  top: 40vw;
+  width: 5vw;
+  margin-left: 45vw;
+
+}
+
+/* Formatação do texto */
+
+.texto{
+  z-index: 1;
+  margin-top: 47.35vw;
+  width: 55vw;
+  margin-left:11vw;
+  position: static;
+  color: #c7c7c7;
+  text-align: left;
+  font-size: 20px;
+
+}
+
+/* Rodapé */
+
+.footer {
+  position: static;
+  overflow: hidden;
+  position: absolute;
+  width: 101.5%;
+  margin-left: -0.7vw;
+  background-color: black;
+  color: white;
+  height: 3.9vw;
+  margin-top: 2.3vw;
+  text-align: center;
+  font-size: 1vw;
+}
+
+/* Container */
+
+.container {
+  color: white;
+  height: 20vw;
+  text-align: center;
+  margin-left: -1vw;
+  width: 101.6%; 
+  font-size: 1.3vw;
+  filter: brightness(50%);
+  z-index: 2;
+}
+
+.container:hover {
+
+  filter: brightness(70%);
+}
+
+.container:visited {
+  text-decoration: none;
+}
+
+.container:active {
+  text-decoration: none;
+}
+
+#txtcontainer {
+  z-index: 3;
+  filter: brightness(100%);
+}
+
+/* Barra de Menu com Dropdown */
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  background: black;
+  position: fixed;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  color: white;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  background: black;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f2f2f2;color: black;}
+
+.dropdown:hover .dropdown-content {display: block;color: black;}
+
+.dropdown:hover .dropbtn {background-color: #f2f2f2; color: black;}
