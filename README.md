@@ -1,4 +1,4 @@
-# Gamepedia
+# Gamepedia 🕹
 Projeto feito durante minha aula de Programação Web II
 
 - Se trata de um site criado utilizando HTML, CSS, JQuery e PHP.
